@@ -121,11 +121,15 @@ jobs:
             - Performance regressions
             - Whether the code matches the PR description intent
             - Missing error handling at system boundaries
+            Prefix all comments with [Claude] tag.
             Post findings as inline comments with severity tags:
             [CRITICAL], [WARNING], [INFO]
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Security: Only trusted first-party actions are used.
+      # ANTHROPIC_API_KEY is passed via env (required by action).
 ```
 
 ### 3.4 Codex Action
@@ -138,6 +142,12 @@ name: Codex Code Review
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    paths:
+      - '**/*.py'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.jsx'
 
 jobs:
   codex-review:
@@ -151,7 +161,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+          ref: ${{ github.sha }}
 
       - name: Fetch base and head refs
         run: |
@@ -216,20 +226,29 @@ name: Qodo PR Review + Test Generation
 on:
   pull_request:
     types: [opened, reopened, ready_for_review]
+    paths:
+      - '**/*.py'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.jsx'
   issue_comment:
+    types: [created]
 
 jobs:
   pr_agent:
-    if: ${{ github.event.sender.type != 'Bot' }}
+    if: |
+      (github.event_name == 'pull_request' && github.event.sender.type != 'Bot') ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '/qodo'))
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
-      contents: write
+      contents: read
 
     steps:
       - name: Qodo PR Agent
-        uses: qodo-ai/pr-agent@main
+        uses: qodo-ai/pr-agent@v0.25
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_KEY: ${{ secrets.OPENAI_API_KEY }}
