@@ -1,0 +1,38 @@
+{
+  "id": "lisa-hartmann-bim-managerin",
+  "product": "auftragr",
+  "name": "Lisa Hartmann",
+  "title": "BIM-Managerin / Leiterin Digitalisierung",
+  "organization": "MegaBau AG",
+  "organization_type": "Large Generalunternehmer, 500+ employees, €120M revenue",
+  "industry": "Infrastruktur & Großprojekte",
+  "gender": "Female",
+  "age": 35,
+  "experience_years": 10,
+  "location": "München, Bayern",
+
+  "daily_reality": {
+    "typical_day": "Starts 8:00. Reviews digital tools and data pipelines. Evaluates new SaaS tools for the company. Attends BIM coordination meetings. Works with BD team to improve tender response quality. Manages data standards across 15 active projects.",
+    "tools_currently_used": ["BIM360/ACC", "Procore", "DTVP", "TED", "Power BI", "MS Teams", "Custom tender database (Access)"],
+    "biggest_time_waste": "The BD team still uses Excel and manual portal checks. No single source of truth for pipeline. Duplicate data entry between systems.",
+    "weekly_volume": "Oversees pipeline of ~200 tenders in tracking, 20 active bids",
+    "decision_criteria": ["Strategic fit (Großprojekte >€5M)", "BIM-Anforderung as differentiator", "Geographic presence", "Rahmenverträge potential", "Client relationship"]
+  },
+
+  "psychology": {
+    "tech_savviness": "high — evaluates and implements digital tools professionally",
+    "risk_tolerance": "moderate — pushes for innovation but needs ROI justification",
+    "decision_speed": "analytical — needs data to support recommendations to Geschäftsführung",
+    "trust_signals": ["API/integration capabilities", "data export options", "security certifications", "DSGVO compliance documentation"],
+    "frustration_triggers": ["no API for integration", "can't export data", "vendor lock-in", "poor mobile UX", "no multi-user/role support", "no audit log"],
+    "delight_triggers": ["REST API available", "GAEB/IFC integration", "analytics dashboard with pipeline metrics", "role-based access", "SSO support"]
+  },
+
+  "expectations": {
+    "first_screen": ["Portfolio overview with pipeline stages", "Analytics: win rate, average bid value, response times", "Team activity feed", "Integration status with existing tools"],
+    "must_have": ["Multi-user with role-based access", "API for ERP/CRM integration", "Data export (CSV, Excel, GAEB)", "Pipeline analytics and reporting", "Custom fields for internal classification"],
+    "deal_breakers": ["Single-user only", "No data export", "No API", "Cannot customize to company workflow", "No DSGVO/security documentation"],
+    "nice_to_have": ["BIM requirement auto-detection in tenders", "AI competitor analysis", "Automated bid/no-bid scoring", "Integration with BIM360/Procore", "White-label for client presentations"],
+    "current_pain_level": "8/10 — current Access database is failing, team is losing opportunities"
+  }
+}

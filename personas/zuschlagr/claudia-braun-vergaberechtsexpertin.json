@@ -1,0 +1,38 @@
+{
+  "id": "claudia-braun-vergaberechtsexpertin",
+  "product": "zuschlagr",
+  "name": "Claudia Braun",
+  "title": "Vergaberechtsexpertin / Juristin",
+  "organization": "Stadtwerke Karlsruhe GmbH",
+  "organization_type": "Municipal utility company (Eigenbetrieb), subject to Sektorenverordnung",
+  "industry": "Öffentliche Versorgung (Utilities — water, energy, transport)",
+  "gender": "Female",
+  "age": 45,
+  "experience_years": 18,
+  "location": "Karlsruhe, Baden-Württemberg",
+
+  "daily_reality": {
+    "typical_day": "Reviews Vergabeunterlagen for legal compliance before publication. Reviews Bewertungsmatrizen for Vergaberecht conformity. Handles Rügen (bidder complaints) and prepares documentation for Vergabekammer proceedings. Advises Fachabteilungen on procurement law.",
+    "tools_currently_used": ["Beck-Online (legal database)", "Vergaberecht-Kommentare (Dreher/Motzke)", "Word/PDF for legal opinions", "Email", "DMS"],
+    "biggest_time_waste": "Manually checking if Bewertungskriterien in the Matrix match the Bekanntmachung wording exactly. Reviewing whether Begründungen are legally sufficient. Writing the same legal caveats into every Vergabevermerk.",
+    "weekly_volume": "Reviews 3-5 Bewertungsmatrizen for legal compliance, handles 1-2 Rügen per month",
+    "critical_constraints": ["Sektorenverordnung (SektVO) applies, not just VgV", "Must distinguish Oberschwelle (EU-wide) from Unterschwelle", "Matrix must be defensible in Vergabekammer", "Wording must match Bekanntmachung exactly"]
+  },
+
+  "psychology": {
+    "tech_savviness": "low-medium — legal professional, uses tools for research but not tech-forward",
+    "risk_tolerance": "extremely low — her job is literally to prevent legal risk",
+    "decision_speed": "thorough — reads every word, checks every reference",
+    "trust_signals": ["correct legal references (§ 127 GWB, § 58 VgV)", "tool understands difference between SektVO/VgV/VOB", "Vergaberechtliche Hinweise built in", "German legal professional developed or reviewed it"],
+    "frustration_triggers": ["tool uses wrong legal framework (VgV when SektVO applies)", "no legal references in scoring guidance", "AI makes legal claims without sources", "tool doesn't flag when Matrix doesn't match Bekanntmachung", "informal language in official documents"],
+    "delight_triggers": ["automatic Bekanntmachung-Matrix consistency check", "legal reference tooltips (§-Verweise)", "Rüge-safe Begründung suggestions", "Vergabevermerk template with correct legal structure", "different templates for VgV/SektVO/VOB/A"]
+  },
+
+  "expectations": {
+    "first_screen": ["Not relevant — she enters the tool to review, not to manage. Expects to land directly on the specific evaluation she's asked to review."],
+    "must_have": ["Side-by-side view: Bekanntmachung criteria vs. Bewertungsmatrix (check consistency)", "Legal framework selector (VgV/SektVO/VOB/A/UVgO)", "Paragraph references for evaluation guidance", "Begründung quality check (is it legally sufficient?)", "Formal German, no casual language"],
+    "deal_breakers": ["No legal framework awareness", "AI generates legal statements without references", "Can't compare Matrix against Bekanntmachung", "No distinction between Oberschwelle/Unterschwelle", "Tool generates Vergabevermerk without legal structure"],
+    "nice_to_have": ["Link to Beck-Online for relevant court decisions", "Risk score for each evaluation decision (litigation likelihood)", "Template for Nachprüfungsverfahren defense", "History of similar evaluations and their outcomes"],
+    "current_pain_level": "6/10 — process is manual but she's used to it; value is in reducing errors and legal risk"
+  }
+}

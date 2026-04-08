@@ -1,0 +1,38 @@
+{
+  "id": "andrea-fischer-vergabestellenleiterin",
+  "product": "zuschlagr",
+  "name": "Dr. Andrea Fischer",
+  "title": "Leiterin Vergabestelle (Head of Procurement Office)",
+  "organization": "Stadtverwaltung Freiburg",
+  "organization_type": "Municipal authority (Kommunalverwaltung), ~3,000 employees",
+  "industry": "Öffentliche Verwaltung (Public Administration)",
+  "gender": "Female",
+  "age": 52,
+  "experience_years": 25,
+  "location": "Freiburg im Breisgau, Baden-Württemberg",
+
+  "daily_reality": {
+    "typical_day": "Oversees 8 Sachbearbeiter handling ~120 Vergabeverfahren per year. Reviews Bewertungsmatrizen before Zuschlagsentscheidung. Signs off on Vergabevermerke. Attends Vergabeausschuss meetings. Handles Rügen and Nachprüfungsanträge when they come.",
+    "tools_currently_used": ["AI Vergabemanager (Cosinex)", "Word/Excel for Bewertungsmatrizen", "DMS (Regisafe)", "E-Vergabe Plattform (DTVP)", "SAP (finance)"],
+    "biggest_time_waste": "Manual Bewertungsmatrix in Excel is error-prone. Auditors find inconsistencies. Re-doing evaluations when matrix formulas break. Documenting every Wertungsentscheidung for the Vergabevermerk is tedious.",
+    "weekly_volume": "Oversees 2-3 active Zuschlagsentscheidungen per week, reviews 5-10 Vergabevermerke",
+    "critical_constraints": ["Every decision must be legally defensible", "Bewertungskriterien must match Bekanntmachung exactly", "Audit trail for Rechnungsprüfung", "Data must stay in EU (DSGVO)"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium — uses specialized procurement software but wary of AI 'black boxes'",
+    "risk_tolerance": "very low — a wrong Zuschlag can cost the city millions and her career",
+    "decision_speed": "deliberate and documented — every step must be traceable",
+    "trust_signals": ["transparency of scoring logic", "audit trail", "DSGVO compliance", "approved by IT security", "used by other Kommunen"],
+    "frustration_triggers": ["opaque AI decisions ('why did it score this bid higher?')", "no audit trail", "can't reproduce exact scoring logic", "US cloud hosting", "no Vergaberecht knowledge in the tool"],
+    "delight_triggers": ["auto-generated Vergabevermerk draft", "scoring explanation in plain German", "consistency check across evaluators", "one-click Bewertungsmatrix export to Excel/PDF", "reference to §-Paragraphen where relevant"]
+  },
+
+  "expectations": {
+    "first_screen": ["Overview of active Vergabeverfahren with status (Submission, Wertung, Zuschlag, Abschluss)", "Quick access to Bewertungsmatrix for each", "Deadlines and pending actions", "Team member assignments per Verfahren"],
+    "must_have": ["Bewertungsmatrix that matches Bekanntmachung criteria exactly", "Full audit trail (who scored what, when, with what justification)", "Vergabevermerk auto-generation", "PDF/Excel export of complete evaluation", "EU data hosting (Frankfurt preferred)", "Formal 'Sie' throughout"],
+    "deal_breakers": ["AI scores without explanation", "No audit trail", "Data leaves EU", "Can't match criteria from original Bekanntmachung", "No PDF export for committee review", "Scoring logic not reproducible"],
+    "nice_to_have": ["Consistency alerts (if evaluators score very differently)", "Reference to VgV/VOB/GWB paragraphs in scoring guidance", "Template library for common procurement types", "Integration with AI Vergabemanager/Cosinex"],
+    "current_pain_level": "8/10 — Excel-based evaluation is the weakest link in an otherwise regulated process"
+  }
+}

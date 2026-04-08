@@ -1,0 +1,38 @@
+{
+  "id": "markus-hoffmann-sachbearbeiter",
+  "product": "zuschlagr",
+  "name": "Markus Hoffmann",
+  "title": "Sachbearbeiter Vergabe (Procurement Officer)",
+  "organization": "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr",
+  "organization_type": "State ministry, processes large infrastructure tenders",
+  "industry": "Öffentliche Verwaltung — Infrastruktur",
+  "gender": "Male",
+  "age": 34,
+  "experience_years": 8,
+  "location": "München, Bayern",
+
+  "daily_reality": {
+    "typical_day": "Manages 8-12 active Vergabeverfahren simultaneously. Creates Bewertungsmatrizen from Bekanntmachung criteria. Collects Wertungsbögen from Fachgutachter (technical evaluators). Consolidates scores. Drafts Vergabevermerk. Answers Bieter-Rückfragen during Angebotsfrist.",
+    "tools_currently_used": ["E-Vergabe Bayern", "Word templates for Vergabevermerk", "Excel Bewertungsmatrix templates", "DMS (ELDORADO)", "Email for Fachgutachter coordination"],
+    "biggest_time_waste": "Consolidating scores from 5 different Fachgutachter who each use slightly different Excel formats. Copy-paste errors. Version control nightmares. Wertungsbogen coming in late.",
+    "weekly_volume": "Active on 3-4 evaluations simultaneously, processes ~15 individual Wertungsbögen per week",
+    "critical_constraints": ["Must follow VgV exactly", "Unterschwellenvergabe vs. Oberschwellenvergabe rules differ", "Every Wertungsentscheidung needs Begründung", "4-Augen-Prinzip on scoring"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium — competent but constrained by ministry IT policies",
+    "risk_tolerance": "very low — fears Vergabenachprüfungsverfahren (legal review)",
+    "decision_speed": "process-driven — follows checklists, doesn't skip steps",
+    "trust_signals": ["compliance with VgV/VOB", "data security (BSI standards)", "ministry IT-approved", "other Behörden use it"],
+    "frustration_triggers": ["tool doesn't match our Wertungsmethode (Richtwertmethode, UfAB, Schulnotensystem)", "can't customize evaluation matrix structure", "Fachgutachter can't access the tool (ministry firewall)", "no offline mode"],
+    "delight_triggers": ["pre-built templates for common Wertungsmethoden", "automatic score consolidation from multiple evaluators", "built-in Vergabevermerk template", "deadline reminders for Fachgutachter", "version history of scoring changes"]
+  },
+
+  "expectations": {
+    "first_screen": ["My active Verfahren listed by deadline urgency", "Status per Verfahren (waiting for scores, complete, ready for Zuschlag)", "Pending actions (which Fachgutachter haven't submitted)", "Quick access to Bewertungsmatrix"],
+    "must_have": ["Multiple Wertungsmethoden (Richtwertmethode, einfache/erweiterte, UfAB, Schulnoten)", "Multi-evaluator support with individual Wertungsbögen", "Automatic consolidation with weighted averages", "Vergabevermerk export (Word/PDF)", "Begründungsfeld for each criterion", "EU-hosted"],
+    "deal_breakers": ["Only one Wertungsmethode supported", "Single evaluator only", "No justification/Begründung field per criterion", "No export capability", "Requires software installation (ministry IT won't allow)"],
+    "nice_to_have": ["Consistency check across evaluators (flag outliers)", "AI suggestion for Begründung text", "Comparison with past similar evaluations", "Bieter-Kommunikation integration"],
+    "current_pain_level": "9/10 — managing 5 evaluators via email and Excel is a daily nightmare"
+  }
+}

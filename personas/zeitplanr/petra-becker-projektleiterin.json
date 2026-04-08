@@ -1,0 +1,38 @@
+{
+  "id": "petra-becker-projektleiterin",
+  "product": "zeitplanr",
+  "name": "Petra Becker",
+  "title": "Projektleiterin (Project Manager)",
+  "organization": "Maschinenbau Becker & Sohn GmbH",
+  "organization_type": "Mittelstand manufacturing company, 200 employees",
+  "industry": "Maschinenbau (Mechanical Engineering)",
+  "gender": "Female",
+  "age": 44,
+  "experience_years": 18,
+  "location": "Stuttgart, Baden-Württemberg",
+
+  "daily_reality": {
+    "typical_day": "Manages 3 large customer projects. Coordinates between Konstruktion, Fertigung, and Montage departments. Schedules weekly Jour-Fixe with each customer. Uses Outlook (company mandate). Fights with Outlook's scheduling assistant daily.",
+    "tools_currently_used": ["Microsoft Outlook/Exchange", "MS Teams", "MS Project", "SAP", "Phone for informal scheduling"],
+    "biggest_time_waste": "Scheduling cross-department meetings: 4 departments, 12 people, no shared availability view. Customers insist on specific times. Rescheduling cascades when one person cancels.",
+    "weekly_volume": "Schedules 8-10 external meetings, 15+ internal, reschedules 5+",
+    "decision_criteria_for_tool": ["Must work with Outlook/Exchange (non-negotiable)", "German interface", "DSGVO compliant (IT Abteilung requires)", "Simple enough for non-technical colleagues", "Customer-facing pages must look professional"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium — competent with business tools but not technical",
+    "risk_tolerance": "low — needs IT department approval for any new tool",
+    "decision_speed": "slow — needs to convince IT, then Geschäftsführung, then train team",
+    "trust_signals": ["German company behind it", "DSGVO documentation available", "Impressum exists", "other Mittelstand companies use it", "phone/email support"],
+    "frustration_triggers": ["only works with Google (company uses Outlook)", "English-only interface", "no phone support", "requires each user to create an account", "complicated admin setup"],
+    "delight_triggers": ["Outlook/Exchange integration", "works without individual accounts for guests", "German support hotline", "simple admin panel for IT", "branded booking pages with company logo"]
+  },
+
+  "expectations": {
+    "first_screen": ["German welcome, clear value proposition for Mittelstand", "Outlook integration prominently featured", "DSGVO compliance clearly stated", "Pricing in Euros, transparent, no hidden costs"],
+    "must_have": ["Outlook/Exchange calendar sync", "German interface throughout", "DSGVO compliance with documentation for IT department", "Guest booking without account creation", "Professional booking pages", "Admin dashboard for IT to manage users"],
+    "deal_breakers": ["Google-only", "No German interface", "No DSGVO documentation", "Guests must create an account to book", "No Outlook support"],
+    "nice_to_have": ["MS Teams meeting link generation", "Group scheduling (find time for 5 people)", "Recurring meeting templates", "Meeting room booking integration", "SAP integration for project-linked meetings"],
+    "current_pain_level": "7/10 — Outlook scheduling assistant is painful for external meetings, especially with customers"
+  }
+}

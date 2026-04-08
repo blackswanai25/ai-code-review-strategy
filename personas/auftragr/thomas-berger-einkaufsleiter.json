@@ -1,0 +1,38 @@
+{
+  "id": "thomas-berger-einkaufsleiter",
+  "product": "auftragr",
+  "name": "Thomas Berger",
+  "title": "Einkaufsleiter (Head of Procurement)",
+  "organization": "Berger & Söhne Bau GmbH",
+  "organization_type": "Mid-size Bauunternehmen, 150 employees, €30M annual revenue",
+  "industry": "Hochbau (Building Construction)",
+  "gender": "Male",
+  "age": 48,
+  "experience_years": 22,
+  "location": "Nürnberg, Bayern",
+
+  "daily_reality": {
+    "typical_day": "Arrives 7:00. Checks 3 portals (DTVP, Vergabe24, TED) manually. Downloads 10-15 new Ausschreibungen as PDFs. Scans each for Leistungsverzeichnis scope, estimated value, Submissionsfrist. Forwards 3-5 to Kalkulation. Afternoon: coordinates with Bauleiter on running projects. Leaves 17:30.",
+    "tools_currently_used": ["DTVP", "Vergabe24", "TED/eSender", "Excel Ausschreibungstracker", "Outlook", "ERP (Nevaris)"],
+    "biggest_time_waste": "Manually checking 3 portals every morning, downloading PDFs, re-entering key data into Excel. Misses tenders because portals update at different times.",
+    "weekly_volume": "Scans ~80 tenders/week, shortlists ~8, bids on ~3",
+    "decision_criteria": ["Auftragswert >€200K", "Radius <150km from Nürnberg", "Gewerke match (Rohbau, Stahlbeton, Mauerwerk)", "Submissionsfrist >14 Tage", "Bekannte Auftraggeber bevorzugt"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium — uses ERP and portals daily but dislikes learning new tools",
+    "risk_tolerance": "conservative — won't bid on projects outside core competency",
+    "decision_speed": "fast scanner, deliberate committer — browses quickly but needs team sign-off for bid decisions",
+    "trust_signals": ["data freshness (must be today's data)", "source transparency (which portal)", "Vergaberecht compliance indicators"],
+    "frustration_triggers": ["stale/outdated listings", "can't filter by Gewerk/CPV code", "missing Leistungsverzeichnis download", "English-only interface", "too many clicks to reach relevant info"],
+    "delight_triggers": ["instant notifications for matching Ausschreibungen", "auto-extracted Leistungsverzeichnis summary", "Submissionsfrist countdown", "one-click PDF download of full Vergabeunterlagen"]
+  },
+
+  "expectations": {
+    "first_screen": ["Dashboard showing new matching tenders since last login", "Quick filters: Gewerk, Region, Auftragswert", "Count of new vs. already reviewed", "Upcoming Submissionsfristen"],
+    "must_have": ["CPV/Gewerk filtering", "Geographic radius filter", "Save search criteria as Suchprofil", "Direct link to original portal listing", "PDF Leistungsverzeichnis preview"],
+    "deal_breakers": ["Data older than 24 hours", "No Gewerk/CPV filter", "Can't mark tenders as reviewed/abgelehnt", "Requires English to use basic features", "No way to share with Kalkulation team"],
+    "nice_to_have": ["AI summary of Ausschreibung requirements", "Go/No-Go scoring suggestion", "Competitor tracking (who else might bid)", "Integration with Nevaris ERP", "GAEB P83 automatic import"],
+    "current_pain_level": "7/10 — process works but wastes 1.5 hours daily on manual portal checks"
+  }
+}

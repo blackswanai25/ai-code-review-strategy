@@ -1,0 +1,38 @@
+{
+  "id": "sabine-mueller-kalkulatorin",
+  "product": "auftragr",
+  "name": "Sabine Müller",
+  "title": "Kalkulatorin (Cost Estimator)",
+  "organization": "Tiefbau Franken GmbH",
+  "organization_type": "Mid-size civil engineering firm, 80 employees, €18M revenue",
+  "industry": "Tiefbau (Civil works — roads, utilities, earthworks)",
+  "gender": "Female",
+  "age": 42,
+  "experience_years": 16,
+  "location": "Würzburg, Bayern",
+
+  "daily_reality": {
+    "typical_day": "Receives 3-5 Ausschreibungen forwarded by Einkauf. Downloads Leistungsverzeichnis (GAEB P83/P84). Imports into RIB iTWO for Kalkulation. Estimates take 2-5 days per tender. Attends weekly Angebotsrunde (bid review) with Geschäftsführung.",
+    "tools_currently_used": ["RIB iTWO", "GAEB Toolbox", "Excel", "BKI Baukosten", "STLB-Bau", "Nevaris (ERP)"],
+    "biggest_time_waste": "Receives tenders that are clearly outside scope. Wastes time opening and reading Leistungsverzeichnis only to realize it's not their Gewerk. Needs better pre-filtering from BD.",
+    "weekly_volume": "Calculates 3-5 tenders/week, submits 2-3 Angebote",
+    "decision_criteria": ["Gewerk must be Tiefbau (not Hochbau)", "GAEB files must be available (can't work without LV)", "Reasonable Kalkulationszeit (at least 2 weeks)", "Positions must be clearly defined (no Pauschalpreise without scope)"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium-high — expert in specialized software (iTWO, GAEB) but uninterested in general tech",
+    "risk_tolerance": "very low — accuracy is everything, errors cost real money",
+    "decision_speed": "methodical — needs complete information before forming an opinion",
+    "trust_signals": ["data accuracy", "GAEB format support", "complete Vergabeunterlagen availability", "clear LV structure"],
+    "frustration_triggers": ["incomplete tender information", "no GAEB file available", "can't preview LV before deciding to calculate", "vague position descriptions", "tool that oversimplifies technical details"],
+    "delight_triggers": ["GAEB P83 auto-preview within the tool", "AI extraction of key positions and quantities", "risk flags on unusual positions", "automatic deadline tracking", "comparison with similar past tenders"]
+  },
+
+  "expectations": {
+    "first_screen": ["Only tenders relevant to MY Gewerk (pre-filtered by Einkauf's Suchprofil)", "For each: clear scope summary, LV availability indicator, GAEB format yes/no", "Estimated Auftragswert and number of Positionen", "Days until Submissionsfrist"],
+    "must_have": ["GAEB P83/P84 file preview and download", "Filter by Gewerk and Positionstyp", "LV summary (Titel, Positionen count, Gesamtmenge)", "Share with team for Angebotsrunde discussion", "Mark as 'kalkuliert' / 'abgelehnt'"],
+    "deal_breakers": ["No GAEB support", "Can't see LV without downloading everything", "No way to filter out irrelevant tenders", "Oversimplified information that hides technical details"],
+    "nice_to_have": ["AI risk analysis of LV (unusual positions, ambiguous scope)", "Similar past projects comparison", "Direct iTWO integration", "Automatic Nachunternehmer-Anfrage generation"],
+    "current_pain_level": "6/10 — current process works but receives too many irrelevant tenders"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ingrid-neumann-rechnungsprueferin",
+  "product": "zuschlagr",
+  "name": "Ingrid Neumann",
+  "title": "Rechnungsprüferin / Prüferin der Vergabestelle",
+  "organization": "Gemeindeprüfungsanstalt Baden-Württemberg (GPA)",
+  "organization_type": "State audit institution for municipal procurement",
+  "industry": "Rechnungsprüfung (Public Audit)",
+  "gender": "Female",
+  "age": 58,
+  "experience_years": 30,
+  "location": "Karlsruhe, Baden-Württemberg",
+
+  "daily_reality": {
+    "typical_day": "Audits completed Vergabeverfahren from municipalities. Reviews Vergabevermerk, Bewertungsmatrix, Zuschlagsentscheidung for legal compliance. Checks if scoring matches published criteria. Flags inconsistencies. Writes audit reports (Prüfungsmitteilungen).",
+    "tools_currently_used": ["Paper files (yes, still)", "PDF viewer", "Audit checklists (Word)", "SAP (for financial audit)", "Prüfungssoftware (IDEA/ACL)"],
+    "biggest_time_waste": "Reconstructing the evaluation logic from incomplete Excel files. Municipalities use different formats. Missing Begründungen. Inconsistent scoring that nobody can explain 6 months later.",
+    "weekly_volume": "Audits 1-2 complete Vergabeverfahren per week (each takes 2-3 days)",
+    "critical_constraints": ["Needs COMPLETE audit trail", "Must verify criteria match Bekanntmachung", "Must verify all evaluator scores are documented", "Must verify Zuschlagsentscheidung follows from scores", "§-references for any findings"]
+  },
+
+  "psychology": {
+    "tech_savviness": "low — prefers paper, uses digital tools only when mandated",
+    "risk_tolerance": "zero — her findings can void contract awards",
+    "decision_speed": "meticulous — checks everything twice",
+    "trust_signals": ["complete, immutable audit trail", "timestamps on every action", "version history", "export to standard formats", "no 'black box' AI decisions"],
+    "frustration_triggers": ["incomplete documentation", "AI-generated scores without documented human review", "can't trace who scored what and when", "data that can be retroactively changed", "no export to auditable format"],
+    "delight_triggers": ["complete audit log with timestamps and user IDs", "immutable scoring records", "auto-generated Vergabevermerk with all required sections", "one-click export of complete Verfahrensakte", "compliance checklist pre-filled"]
+  },
+
+  "expectations": {
+    "first_screen": ["Not a regular user — accesses as auditor/read-only. Expects a 'Prüfungsansicht' (audit view) of a completed Verfahren."],
+    "must_have": ["Complete, immutable audit trail (who, what, when)", "Version history of all scoring changes", "Export complete Verfahrensakte as PDF/ZIP", "Compliance checklist (VgV/VOB/GWB requirements met?)", "Read-only access mode for auditors", "No ability to modify past evaluations"],
+    "deal_breakers": ["Scoring records can be changed after submission", "No audit trail", "No timestamps", "Can't export complete documentation", "AI made scoring decisions without human sign-off"],
+    "nice_to_have": ["Automated compliance check against VgV/VOB requirements", "Flag potential Vergabefehler automatically", "Compare evaluation against statistical norms (unusual scoring patterns)", "Integration with IDEA/ACL audit software"],
+    "current_pain_level": "8/10 — municipalities' inconsistent Excel files make every audit a detective story"
+  }
+}

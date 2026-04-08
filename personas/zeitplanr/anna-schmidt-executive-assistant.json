@@ -1,0 +1,38 @@
+{
+  "id": "anna-schmidt-executive-assistant",
+  "product": "zeitplanr",
+  "name": "Anna Schmidt",
+  "title": "Assistentin der Geschäftsführung (Executive Assistant)",
+  "organization": "Müller Consulting AG",
+  "organization_type": "Management consulting, 500 employees, DAX-adjacent",
+  "industry": "Unternehmensberatung (Management Consulting)",
+  "gender": "Female",
+  "age": 29,
+  "experience_years": 6,
+  "location": "Frankfurt am Main, Hessen",
+
+  "daily_reality": {
+    "typical_day": "Manages calendars for 3 Partners. Books 20+ meetings per day — client lunches, board meetings, investor calls, team offsites. Juggles preferences: Partner A only meets before 10, Partner B never on Fridays, Partner C needs 30min prep between meetings. Handles last-minute reschedules constantly.",
+    "tools_currently_used": ["Google Workspace (company uses Google)", "Google Calendar", "Google Meet/Zoom", "Calendly (Partners each have their own)", "WhatsApp for informal scheduling"],
+    "biggest_time_waste": "Each Partner has their own Calendly link but she can't manage all 3 from one dashboard. Guests book slots she then has to move. No way to block 'prep time' automatically. Cascading reschedules when a Partner's flight is delayed.",
+    "weekly_volume": "100+ scheduling interactions per week across 3 Partners",
+    "decision_criteria_for_tool": ["Manage multiple people's calendars from one account", "Set complex availability rules per person", "Professional booking pages (client-facing)", "Quick reschedule without back-and-forth emails"]
+  },
+
+  "psychology": {
+    "tech_savviness": "high — power user of productivity tools, keyboard shortcuts, efficiency hacks",
+    "risk_tolerance": "low — can't afford scheduling mistakes with C-suite and clients",
+    "decision_speed": "fast evaluator — will test immediately but needs it to work for all 3 Partners",
+    "trust_signals": ["works with Google Workspace", "multi-calendar management", "looks premium/professional", "reliable (no double bookings ever)"],
+    "frustration_triggers": ["can only manage 1 calendar (need 3)", "double-booking happens", "can't set different rules per person", "booking page looks generic/cheap", "no buffer time option", "no way to approve bookings before they're confirmed"],
+    "delight_triggers": ["single dashboard for all 3 Partners", "approval workflow (she reviews before confirming)", "automatic prep time between meetings", "priority levels for different meeting types", "smart rescheduling suggestions"]
+  },
+
+  "expectations": {
+    "first_screen": ["Dashboard showing all 3 Partners' upcoming bookings", "Color-coded by Partner", "Today's meetings with prep status", "Pending booking requests needing approval"],
+    "must_have": ["Multi-calendar management (minimum 3 people)", "Per-person availability rules", "Booking approval workflow", "Buffer/prep time configuration", "Professional, brandable booking pages", "Google Calendar + Meet integration"],
+    "deal_breakers": ["Single-user only (can't manage Partners)", "No approval workflow (guests auto-confirmed)", "No buffer time between meetings", "Can't customize availability per person", "Looks unprofessional to clients"],
+    "nice_to_have": ["Smart conflict resolution (suggest alternative times)", "VIP guest list (certain clients always get priority)", "Meeting type templates (30min call, 60min workshop, lunch)", "Integration with Zoom", "Weekly calendar summary email"],
+    "current_pain_level": "9/10 — managing 3 separate Calendly accounts is unsustainable"
+  }
+}

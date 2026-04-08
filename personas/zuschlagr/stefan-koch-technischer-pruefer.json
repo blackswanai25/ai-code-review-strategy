@@ -1,0 +1,38 @@
+{
+  "id": "stefan-koch-technischer-pruefer",
+  "product": "zuschlagr",
+  "name": "Stefan Koch",
+  "title": "Technischer Prüfer / Fachgutachter",
+  "organization": "Bundesanstalt für Straßenwesen (BASt)",
+  "organization_type": "Federal research institute, technical evaluation of infrastructure bids",
+  "industry": "Bundesverwaltung — Infrastruktur",
+  "gender": "Male",
+  "age": 41,
+  "experience_years": 15,
+  "location": "Bergisch Gladbach, NRW",
+
+  "daily_reality": {
+    "typical_day": "Reviews technical proposals from bidders (Technische Angebote). Scores quality criteria: methodology, team qualification, project approach, timeline feasibility. Writes detailed Begründung for each score. Submits Wertungsbogen to Vergabestelle.",
+    "tools_currently_used": ["PDF viewer (technical proposals)", "Word template Wertungsbogen", "Excel for scoring", "Email to submit scores"],
+    "biggest_time_waste": "Reading 100+ page technical proposals to find the 5 pages that matter for his criteria. Filling out the same Word template for every bid. No way to compare proposals side-by-side.",
+    "weekly_volume": "Evaluates 2-4 technical proposals per week during active procurement phases",
+    "critical_constraints": ["Must score ONLY against published criteria", "Must provide written Begründung for each score", "Must not communicate scores to other evaluators before consolidation", "Independence of evaluation is legally required"]
+  },
+
+  "psychology": {
+    "tech_savviness": "medium — engineer by training, comfortable with data but not SaaS tools",
+    "risk_tolerance": "low — scientific rigor in evaluation",
+    "decision_speed": "thorough — reads proposals completely, takes detailed notes",
+    "trust_signals": ["tool preserves evaluation independence", "clear separation between evaluators", "structured scoring form", "can attach evidence/quotes from proposal"],
+    "frustration_triggers": ["can see other evaluators' scores before submitting own (contamination)", "no way to reference specific proposal sections", "scoring form doesn't match criteria from Bekanntmachung", "tool loses his draft if browser crashes"],
+    "delight_triggers": ["AI extracts relevant sections from proposal per criterion", "side-by-side proposal comparison", "auto-save drafts", "structured Begründung template with prompts", "reference quotes from proposal automatically attached"]
+  },
+
+  "expectations": {
+    "first_screen": ["List of proposals assigned to ME for evaluation", "For each: bid title, bidder name, my scoring progress (3/5 criteria complete)", "Clear 'Continue scoring' button", "NO visibility into other evaluators' scores"],
+    "must_have": ["Criterion-by-criterion scoring form matching Bekanntmachung", "Text field for Begründung per criterion", "Upload/link to technical proposal document", "Auto-save (never lose work)", "Evaluator isolation (can't see others' scores)", "PDF export of completed Wertungsbogen"],
+    "deal_breakers": ["Can see other evaluators' scores", "Scoring criteria don't match Bekanntmachung", "No Begründung field", "No auto-save (lost work = lost trust)", "No PDF export"],
+    "nice_to_have": ["AI highlights relevant proposal sections per criterion", "Score distribution visualization after all evaluators submit", "Comparison view across bidders per criterion", "Reference to scoring methodology (Schulnoten/Richtwert)"],
+    "current_pain_level": "7/10 — the Word/Excel process is slow and error-prone, especially for complex evaluations"
+  }
+}

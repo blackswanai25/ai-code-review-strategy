@@ -1,0 +1,38 @@
+{
+  "id": "michael-schneider-vertriebsleiter",
+  "product": "auftragr",
+  "name": "Michael Schneider",
+  "title": "Vertriebsleiter (Head of Business Development)",
+  "organization": "Fassadenbau Schneider & Partner GmbH",
+  "organization_type": "Specialty subcontractor, 40 employees, €8M revenue",
+  "industry": "Fassadenbau (Facade construction — curtain walls, Wärmedämmung)",
+  "gender": "Male",
+  "age": 38,
+  "experience_years": 14,
+  "location": "Stuttgart, Baden-Württemberg",
+
+  "daily_reality": {
+    "typical_day": "Starts 7:30. Checks tender portals, construction news, LinkedIn for new opportunities. 50% of business is public tenders, 50% GU-Anfragen (subcontractor inquiries from general contractors). Manages relationships with 20 Generalunternehmer. Attends 2-3 Vergabeverhandlungen per month.",
+    "tools_currently_used": ["DTVP", "TED", "Vergabe.de", "Salesforce CRM", "LinkedIn Sales Navigator", "Excel pipeline tracker"],
+    "biggest_time_waste": "Splitting time between portal monitoring and relationship selling. No unified view of public + private opportunity pipeline. Double-entering data between portals and Salesforce.",
+    "weekly_volume": "Monitors ~120 tenders/week across portals, identifies ~15 relevant, pursues ~5 (mix of public and GU inquiries)",
+    "decision_criteria": ["Fassade/WDVS scope required", "Project value €500K-€5M", "Southern Germany or nationwide if >€2M", "GU is a known/trusted partner", "Technical specifications match capabilities (no Structural glazing if not certified)"]
+  },
+
+  "psychology": {
+    "tech_savviness": "high — uses CRM, analytics, and digital sales tools daily",
+    "risk_tolerance": "moderate — willing to bid on stretch projects if the GU relationship is strong",
+    "decision_speed": "fast — needs to respond quickly to GU inquiries, slower for public tenders",
+    "trust_signals": ["CRM integration", "pipeline analytics", "reliable notifications", "professional UI suitable for client meetings"],
+    "frustration_triggers": ["can't combine public and private tender pipeline in one view", "no CRM integration", "notifications that are too late (after Submissionsfrist)", "tool looks unprofessional when sharing screen with GU clients"],
+    "delight_triggers": ["unified public + private pipeline dashboard", "Salesforce/CRM sync", "win/loss analytics by GU partner", "auto-generated Angebotsanschreiben", "mobile app for on-the-go pipeline checks"]
+  },
+
+  "expectations": {
+    "first_screen": ["Unified pipeline: public tenders + private inquiries in one view", "Filter by stage (new, evaluating, bidding, awarded, lost)", "Key metrics: pipeline value, win rate, response time", "Quick actions: 'pursue', 'decline', 'share with team'"],
+    "must_have": ["Public tender discovery (DTVP, TED)", "Custom pipeline stages", "CRM integration or at least CSV export for Salesforce", "Team collaboration (share tenders, assign to colleagues)", "Professional appearance (will show to GU partners)"],
+    "deal_breakers": ["Public tenders only (ignores 50% of business)", "No pipeline/stage tracking", "Looks like a hobby project", "Can't export data", "No mobile access"],
+    "nice_to_have": ["GU partner scoring (which GUs give us the most work)", "Automatic RFQ response templates", "Market intelligence (facade projects planned)", "Integration with certification database"],
+    "current_pain_level": "7/10 — managing two separate pipelines (public/private) is unsustainable as company grows"
+  }
+}

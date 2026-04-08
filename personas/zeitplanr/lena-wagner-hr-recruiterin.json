@@ -1,0 +1,38 @@
+{
+  "id": "lena-wagner-hr-recruiterin",
+  "product": "zeitplanr",
+  "name": "Lena Wagner",
+  "title": "HR Recruiterin / Talent Acquisition Specialist",
+  "organization": "ScaleUp Solutions GmbH",
+  "organization_type": "Fast-growing SaaS company, 80 employees, hiring 20 this quarter",
+  "industry": "SaaS / HR Tech",
+  "gender": "Female",
+  "age": 27,
+  "experience_years": 4,
+  "location": "Hamburg, remote-first",
+
+  "daily_reality": {
+    "typical_day": "Runs 6-8 interview slots per day across 4 open roles. Each role has a 4-stage pipeline: screening call (15min), technical interview (60min), team fit (45min), final with Geschäftsführung (30min). Coordinates availability of 8 interviewers. Candidates are across DE, NL, PL, ES.",
+    "tools_currently_used": ["Personio (ATS)", "Google Calendar", "Google Meet", "Calendly Teams (€16/user/month — expensive for 8 interviewers)", "Notion for pipeline tracking"],
+    "biggest_time_waste": "Coordinating 8 interviewers' availability. Candidates in different timezones. No-shows (15% rate). Rescheduling cascades when an interviewer calls in sick. Calendly Teams plan costs €128/month for 8 users.",
+    "weekly_volume": "30-40 interview slots/week, 10+ reschedules, coordinates with 8 interviewers",
+    "decision_criteria_for_tool": ["Must support round-robin and collective scheduling", "ATS integration (Personio)", "Affordable for 8+ users", "Candidate experience must be excellent", "DSGVO with explicit consent tracking"]
+  },
+
+  "psychology": {
+    "tech_savviness": "high — digital native, uses 10+ SaaS tools daily",
+    "risk_tolerance": "moderate — willing to switch if candidate experience improves",
+    "decision_speed": "fast — will pilot for 2 weeks, needs quick proof of value",
+    "trust_signals": ["great candidate experience (booking page)", "team scheduling works", "reasonable pricing", "DSGVO compliant with consent tracking", "Personio or API integration"],
+    "frustration_triggers": ["expensive per-seat pricing (8 interviewers × €16 = too much)", "can't do round-robin", "candidate booking page is confusing", "no automated reminders (no-show problem)", "no DSGVO consent checkbox on booking"],
+    "delight_triggers": ["affordable team pricing (flat or <€5/user)", "round-robin across interviewers", "automated SMS/email reminders before interview", "candidate self-reschedule", "DSGVO consent checkbox built-in", "Personio webhook/API integration"]
+  },
+
+  "expectations": {
+    "first_screen": ["Team dashboard: all interviewers, their availability, today's interviews", "Interview pipeline view (how many at each stage)", "Quick links to create new interview event types", "No-show rate and scheduling metrics"],
+    "must_have": ["Team scheduling (round-robin + collective)", "Multiple event types per interview stage", "Candidate self-service (book, reschedule, cancel)", "Automated email reminders (24h and 1h before)", "DSGVO consent checkbox on booking page", "Google Calendar + Meet integration", "Affordable for 8+ users"],
+    "deal_breakers": ["Per-seat pricing >€10/user", "No team scheduling", "No automated reminders", "No DSGVO consent mechanism", "Candidate booking page is confusing or ugly"],
+    "nice_to_have": ["Personio ATS integration", "Interview feedback collection after meeting", "Analytics (time-to-schedule, no-show rate, popular slots)", "Candidate timezone auto-detect", "WhatsApp reminders option"],
+    "current_pain_level": "8/10 — Calendly Teams is too expensive and no-shows are killing productivity"
+  }
+}

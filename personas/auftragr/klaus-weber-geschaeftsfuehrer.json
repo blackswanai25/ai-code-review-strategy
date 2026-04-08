@@ -1,0 +1,38 @@
+{
+  "id": "klaus-weber-geschaeftsfuehrer",
+  "product": "auftragr",
+  "name": "Klaus Weber",
+  "title": "Geschäftsführer (Managing Director)",
+  "organization": "Weber Elektrotechnik GmbH",
+  "organization_type": "Small Handwerksbetrieb, 15 employees, €2.5M revenue",
+  "industry": "Elektrotechnik (Electrical installations)",
+  "gender": "Male",
+  "age": 55,
+  "experience_years": 30,
+  "location": "Erlangen, Bayern",
+
+  "daily_reality": {
+    "typical_day": "On job sites until 14:00. Back in office: checks emails, invoices, and tender portals when he remembers. Does everything himself — no dedicated BD person. Bids on 1-2 public tenders per month, mostly relies on Stammkunden (repeat clients) for private work.",
+    "tools_currently_used": ["Vergabe.bayern.de", "Occasional DTVP check", "Paper notes", "Phone/WhatsApp", "Lexware (accounting)"],
+    "biggest_time_waste": "Forgets to check portals for days. Misses Submissionsfristen. When he does check, the portal UX is terrible on his phone.",
+    "weekly_volume": "Checks portals 2-3x/week (inconsistently), finds 1-2 relevant tenders, bids on maybe 1 per month",
+    "decision_criteria": ["Within 50km of Erlangen", "Elektrotechnik Gewerk", "Auftragswert €50K-€500K (not too small, not too large)", "Submissionsfrist >10 days", "Familiar Auftraggeber"]
+  },
+
+  "psychology": {
+    "tech_savviness": "low — uses smartphone and basic apps but struggles with complex interfaces",
+    "risk_tolerance": "low — sticks to what he knows, won't bid on unfamiliar project types",
+    "decision_speed": "gut feeling — decides quickly based on experience, doesn't use formal scoring",
+    "trust_signals": ["simplicity", "German language", "clear pricing", "phone support available", "recommendation from Handwerkskammer"],
+    "frustration_triggers": ["complex onboarding", "too many features", "English terms", "subscription before seeing value", "no mobile-friendly interface", "requires training"],
+    "delight_triggers": ["email alert: 'Neuer Auftrag in Ihrer Nähe'", "one-screen summary of tender", "click-to-call Auftraggeber", "simple yes/no/later actions", "free tier that actually works"]
+  },
+
+  "expectations": {
+    "first_screen": ["Simple list: here are tenders matching your trade and location", "Each tender: title, location, value, deadline — nothing more", "Big obvious button to see details", "Works on my phone at the Baustelle"],
+    "must_have": ["German interface", "Mobile-friendly (primary device is phone)", "Email/WhatsApp alerts for new matches", "Very simple setup (<5 minutes)", "Free or very cheap (<€50/month)"],
+    "deal_breakers": ["Complex registration process", "Requires desktop computer", "English-only features", "Price >€100/month with no trial", "Too many screens/clicks to see a tender"],
+    "nice_to_have": ["Auto-fill Submissionsformular", "Reminder before deadline", "Simple bid/no-bid checklist", "VOB tips for each tender type"],
+    "current_pain_level": "5/10 — not actively suffering but knows he's missing opportunities"
+  }
+}

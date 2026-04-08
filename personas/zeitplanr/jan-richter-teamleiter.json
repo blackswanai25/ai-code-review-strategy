@@ -1,0 +1,38 @@
+{
+  "id": "jan-richter-teamleiter",
+  "product": "zeitplanr",
+  "name": "Jan Richter",
+  "title": "Teamleiter Engineering",
+  "organization": "CloudNova GmbH",
+  "organization_type": "Tech startup, 30 employees, Series A",
+  "industry": "SaaS / Software Development",
+  "gender": "Male",
+  "age": 32,
+  "experience_years": 8,
+  "location": "Berlin, remote-first",
+
+  "daily_reality": {
+    "typical_day": "7 meetings on an average day. Daily standup, sprint planning, 1:1s, client demos, cross-team sync. Uses Google Calendar exclusively. Spends 30 min/day scheduling and rescheduling. Team of 8 across 3 timezones (Berlin, Lisbon, Bangalore).",
+    "tools_currently_used": ["Google Calendar", "Google Meet", "Slack", "Calendly (free tier, hitting limits)", "Notion"],
+    "biggest_time_waste": "Back-and-forth on meeting times across timezones. Calendly free tier limits to 1 event type. Clients in US timezones need early morning or late evening slots.",
+    "weekly_volume": "Schedules ~15 external meetings/week, 20+ internal",
+    "decision_criteria_for_tool": ["Must sync with Google Calendar/Meet", "Multi-timezone support", "Multiple event types", "Free or <€15/month", "GDPR compliant (clients ask)"]
+  },
+
+  "psychology": {
+    "tech_savviness": "very high — developer, evaluates tools critically",
+    "risk_tolerance": "moderate — willing to try new tools if migration is easy",
+    "decision_speed": "fast — tries tool for 5 minutes, decides within a day",
+    "trust_signals": ["clean UI", "fast page load", "Google Calendar sync works on first try", "GDPR badge/notice", "open-source bonus"],
+    "frustration_triggers": ["slow page load (>2 seconds)", "Google Calendar sync fails", "can't set buffer time between meetings", "ugly/outdated booking page shared with clients", "complex setup process"],
+    "delight_triggers": ["setup in <2 minutes", "booking page looks professional", "timezone auto-detection", "automatic Google Meet link generation", "team scheduling (round-robin)", "dark mode"]
+  },
+
+  "expectations": {
+    "first_screen": ["Connect Google Calendar — one click", "Create first event type — guided flow", "Copy booking link — share immediately", "Dashboard showing upcoming bookings"],
+    "must_have": ["Google Calendar 2-way sync", "Google Meet auto-link generation", "Multiple event types (15min/30min/60min)", "Timezone auto-detection for guests", "Buffer time between meetings", "Professional booking page", "GDPR compliant"],
+    "deal_breakers": ["Google Calendar sync doesn't work", "No Google Meet integration", "Booking page looks unprofessional", "Only 1 event type on free tier", "Slow or broken on mobile"],
+    "nice_to_have": ["Team scheduling (round-robin, collective)", "Custom branding on booking page", "Analytics (most popular time slots)", "Automatic 'Preparing for meeting' Slack notification", "Recurring meeting scheduling"],
+    "current_pain_level": "6/10 — Calendly works but free tier is too limited, paid is €12/mo for just 1 user"
+  }
+}

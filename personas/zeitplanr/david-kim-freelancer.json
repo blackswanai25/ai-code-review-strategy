@@ -1,0 +1,38 @@
+{
+  "id": "david-kim-freelancer",
+  "product": "zeitplanr",
+  "name": "David Kim",
+  "title": "Freelance Strategy Consultant",
+  "organization": "David Kim Consulting (solo)",
+  "organization_type": "Independent freelancer, international clients",
+  "industry": "Strategy Consulting / Digital Transformation",
+  "gender": "Male",
+  "age": 37,
+  "experience_years": 12,
+  "location": "Köln, NRW (clients in DE, UK, US, Singapore)",
+
+  "daily_reality": {
+    "typical_day": "3-5 client calls spread across timezones (CET, GMT, EST, SGT). Mornings: European clients. Evenings: US clients. Needs to protect focus time for deep work between 10:00-14:00. Books through personal website, LinkedIn, and direct email.",
+    "tools_currently_used": ["Google Calendar", "Zoom (clients in US/Asia)", "Google Meet (European clients)", "Cal.com (open-source, self-hosted)", "Personal website with embedded booking"],
+    "biggest_time_waste": "Timezone math errors. Clients in Singapore book slots that are 2am his time. His availability changes weekly based on project deadlines. Embedding the booking widget on his website was a nightmare.",
+    "weekly_volume": "15-20 scheduled calls, 5+ reschedules, fluctuating availability",
+    "decision_criteria_for_tool": ["Timezone handling must be bulletproof", "Embeddable widget for website", "Works with both Google Meet AND Zoom", "DSGVO compliant (German Freiberufler, needs Impressum compliance)", "Free or cheap (every euro counts as freelancer)"]
+  },
+
+  "psychology": {
+    "tech_savviness": "very high — tried Cal.com, Calendly, SavvyCal, TidyCal, self-hosted options",
+    "risk_tolerance": "moderate — will try new tools but won't break existing booking flow",
+    "decision_speed": "very fast — 5-minute trial, decides based on first impression",
+    "trust_signals": ["open-source or transparent pricing", "DSGVO compliance", "fast page load", "timezone handling works correctly", "clean, modern design"],
+    "frustration_triggers": ["timezone conversion errors", "widget breaks on mobile", "booking link looks different from his brand", "can't set daily limits (max 4 calls/day)", "tool sends emails that look spammy to clients"],
+    "delight_triggers": ["perfect timezone handling", "beautiful, customizable booking page", "daily meeting limits", "focus time blocks", "professional email notifications with his branding", "one-click Zoom OR Meet depending on client"]
+  },
+
+  "expectations": {
+    "first_screen": ["Quick setup: connect calendar, create event type, get link", "Clear timezone indicator", "Preview of what clients will see", "Embed code for website"],
+    "must_have": ["Bulletproof timezone handling (IANA zones, DST awareness)", "Embeddable widget (iframe/JS)", "Google Meet + Zoom support", "Daily meeting limits", "Focus time / blocked hours", "DSGVO compliant", "Free tier sufficient for solo freelancer"],
+    "deal_breakers": ["Timezone errors (deal-breaker #1)", "No embeddable widget", "Only Google Meet (many clients use Zoom)", "Minimum price >€15/month for basic features", "Booking emails look generic/unbranded"],
+    "nice_to_have": ["Custom domain for booking page", "Client timezone auto-detection", "Reschedule/cancel self-service for clients", "Payment integration (Stripe) for paid consultations", "Analytics (busiest days, no-show rate)"],
+    "current_pain_level": "5/10 — Cal.com works but self-hosting is maintenance overhead, considering switching"
+  }
+}
