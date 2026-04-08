@@ -1,6 +1,6 @@
-# Implementation Plan: Deploying the Quality Pipeline Across 4 Products
+# Implementation Plan: Deploying the Quality Pipeline Across 3 Products
 
-> Created: 2026-04-08
+> Created: 2026-04-08 | Updated: 2026-04-08 (scoped to 3 products)
 
 ## Current State Assessment
 
@@ -9,9 +9,8 @@
 | **Auftragr** | `auftragr` | Next.js 14, TS | Vitest (4 suites) | Netlify | None | No automated review |
 | **Zuschlagr** | `zuschlagr` | React+Vite, TS | **ZERO** | Netlify | None | No tests at all |
 | **Zeitplanr** | `bookmymeeting` | Next.js 14, TS | Vitest (multi) | Netlify | None | No automated review |
-| **Free 5-Lens** | `free5lensanalysis` | Python 3.11 | Pytest (10+) | **None** | None | No CI/CD at all |
 
-All 4 have CLAUDE.md. None have .coderabbit.yaml or GitHub Actions.
+All 3 have CLAUDE.md. None have .coderabbit.yaml or GitHub Actions.
 
 ---
 
